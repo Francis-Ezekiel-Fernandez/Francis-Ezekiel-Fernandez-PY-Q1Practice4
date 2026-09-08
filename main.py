@@ -34,9 +34,43 @@ display(len(h))
 
 awards = 'Gold, Silver, Bronze'
 display(awards.split(","))
-display(type(awards), target = "output1")
 display(type(b))
 display(b)
 
 #join() - method that combines the list back into a string
+
+months = ["January", "February", "April"]#list
+sample_string = "My favorite months are: "
+
+display(sample_string + ",".join(months))
+
+#replace() - method that replaces all occurences of old with new inside a string
+
+food = "My favorite food/s is/are: Yabu Mozzarella Sticks, Jollibee Cheesy Yumburger, Steak"
+display(food.replace('Steak', 'Ribs'))
+
+#CASE - chance case of characters
+#title() - capitalizes the letter of EACH WORD
+#capitalize - capitalizes the first word
+#upper() - capitalizes all
+#lower() - lower cases all
+#swapcase () - changes upper to lower and vice versa
+name ="zeek"
+display(name.capitalize())
+
+Name = "i am zeek"
+display(Name.capitalize())
+
+naame = "whats goody my gang get your money up not your funny up"
+display(naame.title())
+
+Naame = "No, no, no, don't do that! I thought we were having a nice day!"
+display(Naame.upper())
+
+Naame = "No, no, no, don't do that! I thought we were having a nice day!"
+display(Naame.lower())
+
+Naame = "Uh CmOn"
+display(Naame.swapcase())
+
 
