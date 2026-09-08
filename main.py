@@ -70,7 +70,7 @@ display(Naame.upper())
 Naame = "No, no, no, don't do that! I thought we were having a nice day!"
 display(Naame.lower())
 
-Naame = "Uh CmOn"
-display(Naame.swapcase())
+naaame = "Uh CmOn"
+display(naaame.swapcase())
 
 
